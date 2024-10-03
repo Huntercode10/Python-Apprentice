@@ -17,13 +17,30 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
 # tina.pencolor()
+tina.penup()
+tina.goto(0,-200)
+for i in range(4):  
+    tina.forward(50)    
+    tina.left(90)
+tina.penup()
+tina.goto(0,-100)
+tina.pendown()
+for i in range(4):
+    tina.forward(50)
+    tina.left(90)  
+tina.penup()
+tina.goto(0,200)
+tina.pendown()
+for i in range(4):
+    tina.forward(50)
+    tina.left(90)          
+tina.penup()
+tina.goto('0,-150')
+tina.pendown()
+for i in range(4):
+    tina.forward(50)
+    tina.left(90)          
 
-... # Your code here
-# tina.forward(100)
-# tina.left(120)
-# tina.forward(100)
-# tina.left(120)
-# tina.forward(100)
 
 
 
@@ -840,18 +857,11 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 
 
-def Make_cake():
-    tina.color("blue")
-    tina.begin_fill()
-    tina.circle(250)
-    tina.end_fill()
 
 
-Make_cake()
 
 
 
-turtle.exitonclick()                    # Close the window when we click on it
 
 
 
@@ -951,49 +961,4 @@ turtle.exitonclick()                    # Close the window when we click on it
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+turtle.exitonclick()
