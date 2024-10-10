@@ -17,29 +17,44 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
 # tina.pencolor()
+# tina.penup()
+# tina.goto(0,-200)
+# for i in range(4):  
+#     tina.forward(50)    
+#     tina.left(90)
+# tina.penup()
+# tina.goto(0,-100)
+# tina.pendown()
+# for i in range(4):
+#     tina.forward(50)
+#     tina.left(90)  
+# tina.penup()
+# tina.goto(0,200)
+# tina.pendown()
+# for i in range(4):
+#     tina.forward(50)
+#     tina.left(90)          
+# tina.penup()
+# tina.goto(0,-150)
+# tina.pendown()
+# for i in range(4):
+#     tina.forward(50)
+#     tina.left(90)          
+# tina.penup()
+# tina.goto(36,24)
+
+tina.speed(9)
+
 tina.penup()
-tina.goto(0,-200)
-for i in range(4):  
-    tina.forward(50)    
-    tina.left(90)
-tina.penup()
-tina.goto(0,-100)
+tina.goto(0,0)
 tina.pendown()
-for i in range(4):
-    tina.forward(50)
-    tina.left(90)  
-tina.penup()
-tina.goto(0,200)
-tina.pendown()
-for i in range(4):
-    tina.forward(50)
-    tina.left(90)          
-tina.penup()
-tina.goto('0,-150')
-tina.pendown()
-for i in range(4):
-    tina.forward(50)
-    tina.left(90)          
+tina.color("gold")
+for i in range (4):
+    for h in range (4):
+        tina.circle(50)
+        tina.forward(5)
+    tina.right(90)
+    tina.forward(1)
 
 
 
@@ -780,43 +795,13 @@ for i in range(4):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for i in range(5):
+#     for j in range(5):
+#         tina.circle(5)
+#         tina.forward(10)
+#     tina.right(90)
+#     tina.forward(10)
+#     tina.left(90)
 
 
 
